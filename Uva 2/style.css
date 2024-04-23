@@ -1,0 +1,29 @@
+:root {
+    --color-rojo: red;
+    ---color-azul: blue;
+  }
+  
+.imperio {
+background-color: var(--color-rojo);
+}
+.rebeldes {
+background-color: var(---color-azul);
+}
+
+#vader {
+    font-size: 24px; 
+  }
+  
+#luke {
+font-style: italic; 
+}
+.soldado{
+    border: 2px dashed black;
+    letter-spacing: 2px; 
+}
+.unidadApoyo{
+    text-align: center;
+}
+.nave {
+    text-transform: uppercase; 
+  }
