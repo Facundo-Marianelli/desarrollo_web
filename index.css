@@ -1,0 +1,82 @@
+@import url("root.css");
+.navbar {
+    background-color: var(--color-fondo);
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    text-decoration: underline; 
+  }
+
+.navbar a {
+    color: black;
+    margin: 0 10px;
+}
+
+
+.btn-custom {
+    background-color: var(--color-primario);
+    border-color: var(--color-primario);
+}
+.contenido {
+    display: grid;
+    grid-template-columns: 20% 1fr 20%; 
+    grid-gap: 20px; 
+    align-items: center; 
+    margin-left: 15%; 
+}
+
+.contenido img {
+    max-width: 100%; 
+    height: auto;
+}
+.contenido p{
+    font-size: 22px;
+}
+.footer-me {
+    height: 50px; 
+}
+@media (max-width: 768px) {
+    
+    .footer-me {
+        height: 30px; 
+    }
+}
+
+.test h2{
+    text-align: center;
+}
+.test {
+    margin-left: 10%; 
+    margin-right: 10%; 
+    margin-bottom: 100px; 
+}
+.test h3{
+    color: var(--color-primario);
+}
+.test h4{
+    text-decoration: underline;
+}
+footer {
+    text-align: center;
+    background-color: var(--color-fondo);
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-top: 50px;
+}
+
+
+@media (max-width: 576px) { 
+    .contenido {
+        display: flex;
+        flex-direction: column-reverse; 
+        align-items: center; 
+    }
+    .contenido img {
+        max-width: 100%; 
+    }
+}

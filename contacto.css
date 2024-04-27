@@ -1,0 +1,88 @@
+@import url("root.css");
+.navbar {
+    background-color: var(--color-fondo);
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+}
+
+
+.navbar a {
+    color: black;
+    margin: 0 10px;
+}
+
+.contenido,
+.test {
+    margin-bottom: 20px;
+}
+
+
+
+.contenido {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    text-align: left;
+}
+
+
+
+.contenido img {
+    width: 200px;
+    height: auto;
+    margin-left: 20%;
+}
+
+.contenido p {
+    flex: 1;
+    margin-left: 5%;
+    font-size: 26px;
+}
+
+footer {
+    text-align: center;
+    background-color: var(--color-fondo);
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.nombre-subrayado {
+    text-decoration: underline;
+}
+.navbar-nav .nav-item .nav-link:hover {
+    text-decoration: underline; 
+  }
+h1{
+    text-decoration: underline;
+}
+.contacto ul li {
+    margin-right: 20px;
+    text-align: center;
+}
+.contacto ul li:last-child {
+    margin-right: 0;
+}
+.contacto p{
+    text-align: center;
+}
+.contactos{
+    text-align: center;
+}
+.inputs{
+    margin-left: 15%;
+}
+@media screen and (min-width: 768px) {
+    .btn-enviar {
+        margin-left: -15%;
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    .btn-enviar {
+        margin: auto;
+    }
+}

@@ -4,37 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ME-Master English</title>
-    <link rel="stylesheet" href="styles.css">
-
+    <link rel="stylesheet" href="index.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 <body>
     <header>
-        <nav>
-            <table>
-                <tr>
-                    <td><img style="width: 50px; height: 60px;" src="logo_me.png" alt="Logo"></td> 
-
-                    <td><a href="index.html" class="btn btn-primary">Inicio</a></td>
-                    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td> 
-
-                    <td><a href="sobre_nosotros.html" class="btn btn-primary">Sobre Nosotros</a></td> 
-                    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td> 
-                    <td><a href="mision_vision_valores.html" class="btn btn-primary">Misión, Visión y Valores</a></td>
-                    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td> 
-                    <td><a href="servicios.html" class="btn btn-primary">Servicios Ofrecidos</a></td>
-                    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td> 
-                    <td><a href="propuesta_comercial.html" class="btn btn-primary">Propuesta Comercial</a></td>
-                    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td> 
-                    <td><a href="contacto.html"class="btn btn-primary">Contacto</a></td>
-                </tr>
-            </table>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="fotos/logo_me.png" alt="Logo" style="width: 50px; height: 60px;">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+    
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="sobre_nosotros.html">Sobre Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="mision_vision_valores.html">Misión, Visión y Valores</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="servicios.html">Servicios Ofrecidos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="propuesta_comercial.html">Propuesta Comercial</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
+    <br><br>
+    
     
     <main>
         <section class="contenido">
-            <img src="inicio_foto.png" alt="Imagen">
+            <img src="fotos/inicio_foto.png" alt="Imagen">
             <div>
                 <h2>Bienvenido a ME-Master English</h2>
                 <p>¡Me complace ofrecerte mis servicios como profesora de inglés! ¡Acá aprenderas y mejoraras tus habilidades en el idioma inglés de manera efectiva y divertida!
@@ -44,40 +58,54 @@
                     .</p>
             </div>
         </section>
+        <br>
         <section class="test">
-            <h2>¿Cómo empezar?</h2>
+            <h2>¿Cómo empezar?</h2><br><br>
             <div class="row">
                 <div class="col-md-4">
-                    <div class="card">
+                    <div class="card h-100">
                         <div class="card-body">
-                            <h5 class="card-title">1. Título</h5>
-                            <p class="card-text">Texto de la card número 1.</p>
+                            <h3 class="card-title">1</h3>
+                            <h4>Test de nivelación</h4>
+                            <p class="card-text">Hacé clic en "Test" y realizá el test de nivelación.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="card">
+                    <div class="card h-100">
                         <div class="card-body">
-                            <h5 class="card-title">2. Título</h5>
-                            <p class="card-text">Texto de la card número 2.</p>
+                            <h3 class="card-title">2</h3>
+                            <h4>Entrevista</h4>
+                            <p class="card-text">Una vez realizado el test, te estare contactando para realziar una entrevista para ayudar a identificar tu nivel y objetivos.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="card">
+                    <div class="card h-100">
                         <div class="card-body">
-                            <h5 class="card-title">3. Título</h5>
-                            <p class="card-text">Texto de la card número 3.</p>
+                            <h3 class="card-title">3</h3>
+                            <h4>Plan de estudios</h4>
+                            <p class="card-text">Cada necesidad es distinta, y lo sé. Ofrezco diferentes modalidades de clase que se adaptan a vos.</p>
                         </div>
                     </div>
                 </div>
             </div>
+            
+            <div class="text-center mt-4">
+
+                <button type="button" class="btn btn-primary btn-lg" style="width: 150px; background-color: #00386d;" onmouseover="this.style.backgroundColor='#8ed28e'" onmouseout="this.style.backgroundColor='#00386d'">Test</button>
+
+
+            </div>
+            
+        
         </section>
     </main>
-
+    <br>
     <footer class="footer-me">
         <p> &copy; 2024 ME-Master English.</p>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-mI3p/ON7aF5iZfQnUc8jJ6zCkzMS4iV/zLr0TC4nUvrbzAjxFV/UtMOhba/zx4vH" crossorigin="anonymous"></script>
 </body>

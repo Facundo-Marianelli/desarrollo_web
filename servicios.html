@@ -3,55 +3,123 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Servicios Ofrecidos</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Sobre Nosotros</title>
+    <link rel="stylesheet" href="servicios.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
 </head>
 <body>
     <header>
-        <nav>
-            <table>
-                <tr>
-                    <td><img style="width: 50px; height: auto;" src="logo_me.png" alt="Logo"></td> 
-                    <td><a href="index.html">Inicio</a></td>
-                    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td> 
-                    <td><a href="sobre_nosotros.html">Sobre Nosotros</a></td> 
-                    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td> 
-                    <td><a href="mision_vision_valores.html">Misión, Visión y Valores</a></td>
-                    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td> 
-                    <td><a href="servicios.html">Servicios Ofrecidos</a></td>
-                    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td> 
-                    <td><a href="propuesta_comercial.html">Propuesta Comercial</a></td>
-                    <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td> 
-                    <td><a href="contacto.html">Contacto</a></td>
-                </tr>
-            </table>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="fotos/logo_me.png" alt="Logo" style="width: 50px; height: 60px;">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+    
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="sobre_nosotros.html">Sobre Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="mision_vision_valores.html">Misión, Visión y Valores</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="servicios.html">Servicios Ofrecidos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="propuesta_comercial.html">Propuesta Comercial</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
-    
-    <main>
-        <section>
-            <h1>Servicios Ofrecidos</h1>
-            <p>Ofrezco una variedad de servicios de enseñanza de inglés para satisfacer las necesidades individuales de mis estudiantes. Mis servicios incluyen:</p>
-            <ul>
-                <li>Capacitación.</li>
-                <li>Test de nivel y entrevista inicial.</li>
-                <li>Inglés general en todos sus niveles.</li>
-                <li>Clases de conversación.</li>
-                <li>Inglés de negocios. Los cursos se diseñan según el área de uso en el idioma objetivo: Marketing, Ventas, RRHH, IT, mandos gerenciales, asistenciales y comunicación.</li>
-                <li>Cursos para empresas, diseñados de acuerdo con los requerimientos de cada firma.</li>
-                <li>Traducciones de carácter público. Traducciones de carácter no público: técnicas, científicas y literarias.</li>
-                <li>Servicios de Interpretación consecutiva y simultánea, interpretación de enlace, interpretación en congresos, conferencias, tribunales, reuniones, ferias y misiones comerciales, visitas a plantas y fábricas.</li>
-                <li>Provisión de equipos de cabinas de interpretación, equipos portátiles y sistemas de sonido para eventos.</li>
-                <li>Corrección de presentaciones, manuales e informes empresariales.</li>
-                <li>Asistencia en la selección de personal con dominio de idioma inglés.</li>
-                <li>Gestoría y asistencia a empresas en el proceso de establecimiento de ejecutivos extranjeros en el país, con el fin de ubicar residencia, instituciones educativas para sus hijos, etc.</li>
-            </ul>
-            <p>Si estás interesado en alguno de mis servicios o tienes alguna pregunta, no dudes en ponerte en contacto conmigo. Navega sobre contacto y obtendrás más información sobre cómo contactarme.</p>
-        </section>
-    </main>
 
-    <footer>
+    <main>
+        <section class="test">
+
+
+            <section class="container" id="servicios">
+                <div class="row">
+                    <div class="col">
+                        <h2 class="text-center">Nuestros Servicios</h2><br><br>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-md-6 mb-3 px-5 px-md-3">
+                        <div class="card rounded-0">
+                            <img src="fotos/capacitacion.jpeg" class="card-img-top rounded-0" alt="Clases individuales">
+                            <div class="card-body">
+                                <h3 class="card-title">Capacitacion</h3>
+                                <p class="card-text">Ingles general en todos sus niveles
+
+                                    Clases de conversación
+                                    
+                                    Ingles de negocios
+                                    
+                                    Cursos para empresas, diseñados de acuerdo.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-3 px-5 px-md-3">
+                        <div class="card rounded-0">
+                            <img src="fotos/traduccion.png" class="card-img-top rounded-0" alt="Clases grupales">
+                            <div class="card-body">
+                                <h3 class="card-title">Traducción</h3>
+                                <p class="card-text">Traducciones de carácter publico.
+
+                                    Traducciones de carácter no público: Tecnicas, cientificias y literarias.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-3 px-5 px-md-3">
+                        <div class="card rounded-0">
+                            <img src="fotos/interpretacion.png" class="card-img-top rounded-0" alt="Exámenes internacionales">
+                            <div class="card-body">
+                                <h3 class="card-title">Interpretación</h3>
+                                <p class="card-text">Servicios de Interpretación consecutiva y simultánea, interpretación de enlace, interpretación en congresos, conferencias, tribunales, reuniones, ferias y misiones comerciales, visitas a plantas y fábricas. 
+
+                                    </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-3 px-5 px-md-3">
+                        <div class="card rounded-0">
+                            <img src="fotos/otros.png" class="card-img-top rounded-0" alt="Exámenes internacionales">
+                            <div class="card-body">
+                                <h3 class="card-title">Otros Servicios</h3>
+                                <p class="card-text">Corrección de presentaciones, manuales e informes empresariales.
+
+                                    Asistencia en la selección de personal con dominio de idioma inglés.
+                                    
+                                    Gestoría y asistencia a empresas en el proceso de establecimiento de ejecutivos extranjeros en el país.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <br><br>
+
+            </div>
+
+        </section>
+        
+        
+    </main>
+    <footer class="footer-me">
         <p> &copy; 2024 ME-Master English.</p>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
 </body>
 </html>

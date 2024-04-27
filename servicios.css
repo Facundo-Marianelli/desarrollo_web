@@ -1,0 +1,87 @@
+@import url("root.css");
+.navbar {
+    background-color: #f8f9fa;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+}
+
+.navbar table {
+    margin: 0 auto; 
+}
+.navbar-nav .nav-item .nav-link:hover {
+    text-decoration: underline; 
+  }
+
+.navbar a {
+    color: black;
+    margin: 0 10px;
+}
+h2{
+    text-decoration: underline;
+}
+.card-img-container {
+    text-align: center; 
+    margin-top: 10px; 
+}
+.card-img-top {
+    width: 250px; 
+    height: 150px;
+    object-fit: contain; /
+}
+.card-img-container img {
+    max-width: 100px; 
+    height: auto; 
+}
+.contenido,
+.test {
+    margin-bottom: 20px;
+}
+.contenido {
+    display: flex;
+    justify-content: flex-start; 
+    margin-left: 20px; 
+}
+
+
+
+footer {
+    text-align: center;
+    background-color: #f8f9fa;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.texto p span{
+    text-decoration: underline;
+    font-size: 36px;
+}
+.test h2{
+    text-align: center;
+}
+.test {
+    margin-left: 10%; 
+    margin-right: 10%; 
+}
+.test h3{
+    color: var(--color-primario);
+}
+.test {
+    text-align: center; 
+    margin-right: 100px; 
+}
+
+.row {
+    justify-content: center; 
+}
+
+.col-md-4 {
+    margin-bottom: 20px; 
+}
+@media (max-width: 768px) {
+    
+    .footer-me {
+        height: 30px; 
+    }
+}
