@@ -1,6 +1,6 @@
 @import url("root.css");
 .navbar {
-    background-color: #f8f9fa;
+    background-color: var(--color-fondo);
     padding: 10px;
     text-align: center;
     justify-content: center;
@@ -47,7 +47,7 @@ h2{
 
 footer {
     text-align: center;
-    background-color: #f8f9fa;
+    background-color: var(--color-fondo);
     padding: 10px 0;
     position: fixed;
     bottom: 0;
