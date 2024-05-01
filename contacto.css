@@ -65,21 +65,7 @@ h1{
 .contacto ul li:last-child {
     margin-right: 0;
 }
-.contacto ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center; 
-    align-items: flex-start; 
-    text-align: center;
-    padding: 0;
-}
 
-.contacto ul li {
-    margin-right: 20px;
-    margin-bottom: 10px;
-    white-space: nowrap; 
-    min-height: 40px; 
-}
 .contacto p{
     text-align: center;
 }
@@ -88,6 +74,21 @@ h1{
 }
 .inputs{
     margin-left: 15%;
+}
+.contactos {
+    margin-bottom: 100px; 
+}
+
+.contacto ul {
+    overflow-x: auto; 
+    white-space: nowrap; 
+    padding-inline-start: 0; 
+}
+
+.contacto ul li {
+    display: inline-block; 
+    margin-right: 20px; 
+    font-size: 14px; 
 }
 @media screen and (min-width: 768px) {
     .btn-enviar {
