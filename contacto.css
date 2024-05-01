@@ -65,6 +65,21 @@ h1{
 .contacto ul li:last-child {
     margin-right: 0;
 }
+.contacto ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    align-items: flex-start; 
+    text-align: center;
+    padding: 0;
+}
+
+.contacto ul li {
+    margin-right: 20px;
+    margin-bottom: 10px;
+    white-space: nowrap; 
+    min-height: 40px; 
+}
 .contacto p{
     text-align: center;
 }
@@ -80,7 +95,12 @@ h1{
     }
 }
 
-
+@media (max-width: 768px) {
+    .contacto ul li {
+      display: block;
+      margin-bottom: 10px; 
+    }
+  }
 @media screen and (max-width: 767px) {
     .btn-enviar {
         margin: auto;

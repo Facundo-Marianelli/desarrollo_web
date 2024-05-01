@@ -4,7 +4,52 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Galería de Obras de Arte</title>
-  <link rel="stylesheet" href="style_GridFlexbox.css">
+  <!-- <link rel="stylesheet" href="style_GridFlexbox.css"> -->
+  <style>
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 10px; 
+      }
+      
+      .item {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 1px solid #ccc; 
+      }
+      
+      .item img {
+      max-width: 100%; 
+      height: auto; 
+      }
+      
+      
+      .grid-flexbox {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(2, auto);
+      grid-gap: 10px;
+      }
+      
+      .item {
+      border: 1px solid #ccc;
+      padding: 20px;
+      }
+      
+      .item-1, .item-4 {
+      grid-row: span 1;
+      }
+      
+      .item-2, .item-5 {
+      grid-row: span 1;
+      }
+      
+      .item-3, .item-6 {
+      grid-row: span 2;
+      }
+      
+  </style>
 </head>
 <body>
   <div class="grid-container">
