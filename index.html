@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bienvenida y Cálculo de Días Vividos</title>
+  <title>Calculadora de días vividos</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -68,6 +68,9 @@
     .dias_vividos{
         color: green;
     }
+    #resetButton{
+        background-color: red;
+    }
   </style>
 </head>
 <body>
@@ -108,7 +111,7 @@
       const diasVividos = calcularDiasVividos(fechaNacimiento);
 
 
-      document.getElementById("resultadoDiasVividos").innerHTML = `<p class="dias_vividos">Has vivido aproximadamente ${diasVividos} días desde tu nacimiento.</p>`;
+      document.getElementById("resultadoDiasVividos").innerHTML = `<p class="dias_vividos">Has vivido  ${diasVividos} días desde tu nacimiento.</p>`;
     });
 
     document.getElementById("resetButton").addEventListener("click", function() {
